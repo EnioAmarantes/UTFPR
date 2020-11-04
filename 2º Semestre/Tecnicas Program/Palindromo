@@ -1,0 +1,44 @@
+/*Mostrar uma lista contendo todos os números compreendidos entre 10 e 10000, da seguinte forma:
+número - número invertido - é palíndromo? - binário
+10 01 não 1010
+11 11 sim 1011
+...
+9998 8999 não 10011100001110
+9999 9999 sim 10011100001111
+10000 00001 não 10011100010000
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(){
+  int i, c, num, n1, n, invertido, digito;
+  char inv[6]="\0\0\0\0\0\0", bin[15];
+  printf("numero - numero invertido - eh palindromo? - binario\n"); //imprime o cabeçalho
+  for (n1 = 10; n1 <= 10000; n1++){ //percorre o invervalo enre 10 e 10000
+    printf("%5d\t\t", n1); //imprime o número
+    num = n1;
+    invertido = 0;
+    while(num != 0){ //inverte o número
+      digito = num % 10;
+      invertido = (invertido * 10) + digito;
+      num = num / 10;
+    }
+    itoa(n1, inv, 10); //converte o número para string
+    for(c = strlen(inv); c >= 0; c--)//imprime o número invertido como string
+      printf("%c", inv[c]);
+    if(n1 == invertido) //verifica se é palíndromo
+      printf("\t\tsim\t\t");
+      else
+        printf("\t\tnao\t\t");
+    n = n1; //converte n1 para binário e depois imprime o valor binário
+    for(i = 0; n > 1; i++){
+      bin[i] = n % 2;
+      n = n / 2;
+    }
+    bin[i] = 1;
+    for( ; i >= 0; i--)
+      printf("%d",bin[i]);
+      printf("\n");
+    }
+}

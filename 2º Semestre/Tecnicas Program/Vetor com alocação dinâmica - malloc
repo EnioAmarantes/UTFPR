@@ -1,0 +1,33 @@
+Vetor com alocação dinâmica - malloc
+
+#include <stdio.h>
+#include <stdlib.h>
+main(){
+  int i, q;
+//q - armazena o tamanho do vetor
+  int *v;
+//*v - é um ponteiro para o tipo inteiro que será o vetor
+// alocado dinamicamente
+  printf("Qual a quantidade de elementos do vetor: ");
+  scanf("%d", &q);
+//da linha 12 à linha 15 há a verificação se existe
+//memória suficiente para alocar um vetor de inteiros
+//com a quantidade de elementos informada por q
+  if ((malloc( q * sizeof (int)) == NULL)){
+    printf("sem espaço de memória");
+    exit(1);
+  }
+//na linha 18 é realizada a alocação de memória de
+//q elementos do tipo inteiro para o ponteiro v, este
+//ponteiro é o vetor com o qual o programa irá trabalhar
+  v = malloc( q * sizeof (int));
+//malloc = memory allocation
+//malloc(QUANTIDADE_DE_ELEMENTOS * TAMANHO_EM _BYTES_DO_TIPO_DE_DADOS)
+  for(i = 0;i < q; i++){
+    printf("Digite o %d elemento do vetor ", i+1);
+    scanf("%d", &v[i]);
+  }
+
+  for(i = 0;i < q; i++)
+    printf("%d ", v[i]);
+}

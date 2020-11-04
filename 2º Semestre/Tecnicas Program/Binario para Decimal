@@ -1,0 +1,102 @@
+Exercício resolvido em Linguagem C - Binário para Decimal e Decimal para Binário e Partes de Um Número e ITOA
+
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+main(){
+  int x, i, y, pot,num;
+  char n[200];
+  do{
+    printf("digite o numero binario: "); 
+    fflush(stdin);
+    gets(n);
+    for(i = 0; i< strlen(n); i++)
+      if ((n[i] >= 48) && (n[i] <= 49))
+        x = 1;
+        else
+         x = 2;
+  }while (x == 2);
+  for(i = 0; i < strlen(n); i++)
+    printf("%c",n[i]);
+  printf("\n\n");
+  num = 0;
+  pot = 0;
+  for(i = strlen(n)-1; i >= 0; i--){
+    switch (n[i]){
+      case 48:
+        y = 0;
+        break;
+      case 49:
+        y = 1;
+        break;
+    }
+    num = num + y * pow(2,pot);
+    pot++;
+  } 
+  printf("%d",num);
+}
+
+=================================================
+
+#include <stdio.h>
+
+main(){
+  int bin[15], i, n;
+  printf("Digite um numero: ");
+  scanf("%d", &n);
+  for(i = 0; n > 1; i++){
+    bin[i] = n % 2;
+    n = n / 2;
+  }
+  bin[i] = 1;
+  for( ; i >= 0; i--)
+    printf("%d",bin[i]);
+}
+
+=================================================
+
+Escreva um programa em C que deverá receber um número inteiro qualquer digitado pelo usuário. Depois de receber o número o programa deve utilizar somente números entre 1000 e 9999, inclusive, e mostrar:
+
+Número lido -> : 1245
+Unidade -----> : 5
+Dezena ------> : 40
+Centena -----> : 200
+Milhar ------> : 1000
+
+Se o número informado não estiver entre 1000 e 9999, inclusive, o programa deverá mostar:
+
+O número lido está fora da faixa de valores válidos
+
+#include <stdio.h>
+main(){
+  int n;
+  printf("Digite um numero inteiro: ");
+  scanf("%d", &n);
+  if ((n >= 1000) && (n <= 9999)){
+    printf("\nnumero lido -> %d", n);
+    printf("\nunidade -----> %d", n % 10);
+    printf("\ndezena ------> %d", n % 100 - n % 10);
+    printf("\ncentena -----> %d", n % 1000 - n % 100);
+    printf("\nmilhar ------> %d", n % 10000 - n % 1000);
+  }
+  else
+    printf("\nO numero esta fora da faixa de valores validos");
+}
+
+=================================================
+
+/* itoa example */
+#include <stdio.h>
+#include <stdlib.h>
+main () {
+  int i;  
+  char buffer [33];
+  printf ("Enter a number: "); 
+  scanf ("%d",&i);
+  itoa (i,buffer,10);
+  printf ("decimal: %s\n",buffer);
+  itoa (i,buffer,16);
+  printf ("hexadecimal: %s\n",buffer);
+  itoa (i,buffer,2);
+  printf ("binary: %s\n",buffer);
+}

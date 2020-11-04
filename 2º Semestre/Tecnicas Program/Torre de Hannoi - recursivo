@@ -1,0 +1,19 @@
+Torre de Hannoi - recursivo
+
+#include <stdio.h>
+  hanoi(int n, int origem, int auxiliar, int destino)
+  {
+    if (n > 0){
+      hanoi(n-1,origem,destino,auxiliar);
+      printf("\nMova de %d para %d ", origem, destino);
+      hanoi(n-1,auxiliar,origem,destino); 
+    }
+  }
+
+  main(){
+    int n; 
+    printf("Entre com a quantidade de discos no primeiro pino: ");
+    scanf("%d", &n);
+    printf("\nA sequencia de movimentos para mover do pino 1 para o pino 3 e: \n");
+    hanoi(n,1,2,3);
+  }

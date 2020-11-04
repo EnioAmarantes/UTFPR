@@ -1,0 +1,106 @@
+Linguagem C - Notas de Aula:
+http://www.inf.ufpr.br/cursos/ci067/Docs/NotasAula/
+
+Fundamentos Matemáticos para a Ciência da Computação:
+http://moodle.utfpr.edu.br/pluginfile.php/466989/mod_page/content/16/Fundamentos%20Matem%C3%A1ticos%20para%20a%20Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o.pdf
+
+Projeto de Algoritmos em C - Paulo Feofiloff:
+http://www.ime.usp.br/~pf/algoritmos/
+
+The C Library Reference Guide (Association for Computer Machinery):
+http://www.acm.uiuc.edu/webmonkeys/book/c_guide/
+
+Arquivos-interface de algumas bibliotecas padrão:
+http://www.ime.usp.br/~pf/algoritmos/apend/interfaces.html
+
+Biblioteca padrão do C (Wikipédia):
+http://pt.wikipedia.org/wiki/Biblioteca_padr%C3%A3o_do_C
+
+Limitações de C em trabalho com caracteres e strings:
+http://www.unicamp.br/fea/ortega/info/aula09.htm
+
+Gerando números aleatórios em C: rand, srand e seed:
+http://www.cprogressivo.net/2013/03/Como-gerar-numeros-aleatorios-em-C-com-a-rand-srand-e-seed.html
+
+Números aleatórios:
+http://www.ime.usp.br/~pf/algoritmos/aulas/random.html
+
+Olimpíada Brasileira de Informática:
+http://olimpiada.ic.unicamp.br/
+
+Alocação dinâmica de memória - 1:
+http://www.ime.usp.br/~pf/algoritmos/aulas/aloca.html
+
+Alocação dinâmica de memória em Linguagem C:
+http://web.fe.up.pt/~pfs/recursos/C/malloc/malloc.html
+
+The xSortLab Applet:
+http://math.hws.edu/eck/js/sorting/xSortLab.html
+
+http://www.educ.fc.ul.pt/icm/icm2001/icm31/crivo.htm
+
+https://www.inf.pucrs.br/~pinho/LaproI/Funcoes/AulaDeFuncoes.htm
+
+http://linguagemc.com.br/funcoes-em-c/
+
+http://homepages.dcc.ufmg.br/~rodolfo/aedsi-2-10/Funcoes/funcoes.html
+
+https://pt.wikibooks.org/wiki/Programar_em_C/Fun%C3%A7%C3%B5es
+
+https://www.cprogressivo.net/2013/10/Operacoes-com-arquivos-FILE-fopen-modos-de-abertura-fechamento-modo-texto-binario-EOF-fclose-fcloseall.html
+
+https://www.cprogressivo.net/2013/11/Escrevendo-em-arquivos-As-funcoes-fputc-fprintf-fputs.html
+
+https://www.cprogressivo.net/2013/11/Como-ler-arquivos-em-C-As-funcoes-fgetc-fscanf-fgets.html
+
+https://www.ime.usp.br/~pf/algoritmos/aulas/aloca.html
+
+https://www.ime.usp.br/~pf/algoritmos/aulas/pont.html#array
+
+https://www.tutorialspoint.com/c_standard_library/c_function_malloc.htm
+
+
+
+
+Alguns livros para a disciplina disponíveis na biblioteca do câmpus
+
+Algoritmos Estruturados
+Harry Farrer 
+005.73 A396a
+
+Técnicas de Programação 
+Walter Luiz Caram Saliba
+005.1 S165t
+
+Lógica de Programação - a construção de algoritmos e estruturas de dados
+André Luiz Villar Forbellone & Henri Frederico Eberspächer
+005.12 F6921l
+
+Algoritmos: lógica para desenvolvimento de programas de computadores
+José Augusto N.G. Manzano & Jayr Figueiredo de Oliveira 
+005.113 M296a
+
+Fundamentos da programação de computadores : algoritmos, Pascal, C/C ++ e Java
+ASCENCIO, Ana Fernanda Gomes; CAMPOS, Edilene Aparecida Veneruchi de. 
+005.1 A811f
+
+C, a linguagem de programação
+KERNIGHAN, Brian W.; RITCHIE, Dennis M. C, a linguagem de programação. 
+005.133 K39c
+
+C, completo e total
+SCHILDT, Herbert.
+005.133 S334c
+
+C/C++, 1001 dicas
+JAMSA, Kris A.; TORTELLO, João Eduardo Nóbrega.
+005.133 J32c
+
+Treinamento em linguagem C : curso completo - módulo 1 
+MIZRAHI, Victorine Viviane. 
+005.133 M685t
+
+Treinamento em linguagem C : curso completo - módulo 2
+MIZRAHI, Victorine Viviane.
+005.133 M685tc
+

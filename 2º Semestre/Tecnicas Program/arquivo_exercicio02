@@ -1,0 +1,121 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <string.h>
+/*
+codigo                - int			- cod
+cliente               - string	- cl
+funcion�rio           - string	- fc
+data                  - string	- dt
+Via                   - string	- via
+Frete                 - float		- frete
+Nome do Destinat�rio  - string	- nome
+Cidade de Destino     - string	- cid
+Regi�o de destino     - string  - rd
+Pa�s de Destino       - string	- pais
+Trim-Ano              - string	- trim
+S� Ano                - int			- ano
+S� trimestre          - int			- tri
+Vendas                - float		- vendas
+*/
+
+void corta(char variavel[],char linha[], int i , int tam){
+  strncpy(variavel, &linha[i-tam], tam);
+	if (tam == 1)
+	strcpy(variavel,"XXXXX");
+		else	
+		  variavel[tam-1] = '\0';
+}
+void corta1(char variavel[],char linha[], int i , int tam){
+  strncpy(variavel, &linha[i-tam+1], tam-1);
+	if (tam == 1)
+	strcpy(variavel,"XXXXX");
+		else	
+		  variavel[tam-1] = '\0';
+}
+
+int main()
+{
+	FILE *arq_cliente;
+	FILE *destino;
+	char cod[50],cl[50], fc[50], dt[15], via[50], frete[50], nome[50], 
+	     cid[50], rd[50], pais[50], trim[15], ano[10], tri[15], vendas[20];
+  char linha[200];     
+	int i, tam, pos, indice = 0;
+	float vds; //vendas
+	arq_cliente = fopen("base de dados.txt", "r");
+	destino = fopen("BasedeDados - Destino.txt","a");
+
+	if (arq_cliente == NULL)
+	{
+		printf("\nArquivo CLIENTE.TXT nao pode ser aberto.");
+		printf("\nOcorreu um Erro Grave ! Use alguma tecla para finalizar !");
+		getch();
+	}
+	else
+	{
+		while((fgets(linha,200,arq_cliente)) != NULL) 
+		{
+			for(i = 0, pos = 1, tam = 0;linha[i] != '\n';i = i + 1, tam = tam + 1){
+				if(linha[i] == ';'){
+					switch (pos){
+						case 1:
+							corta(cod,linha, i, tam); pos = 2; tam = 0; break;
+						case 2:
+							corta1(cl,linha,i,tam); pos = 3; tam = 0; break;
+						case 3:
+							corta1(fc,linha,i,tam); pos = 4; tam = 0; break;
+						case 4:
+							corta1(dt,linha,i,tam); pos = 5; tam = 0; break;
+						case 5:
+							corta1(via,linha,i,tam); pos = 6; tam = 0; break;
+						case 6:
+							corta1(frete,linha,i,tam); pos = 7; tam = 0; break;
+						case 7:
+							corta1(nome,linha,i,tam); pos = 8; tam = 0; break;
+						case 8:
+							corta1(cid,linha,i,tam); pos = 9; tam = 0; break;
+						case 9:
+							corta1(rd,linha,i,tam); pos = 10; tam = 0; break;
+						case 10:
+							corta1(pais,linha,i,tam); pos = 11; tam = 0; break;
+						case 11:
+							corta1(trim,linha,i,tam); pos = 12; tam = 0; break;
+						case 12:
+							corta1(ano,linha,i,tam); pos = 13; tam = 0; break;
+						case 13:
+							corta1(tri,linha,i,tam); pos = 1; tam = 0; break;					
+					}
+				}
+			}
+			corta1(vendas,linha,i,tam); pos = 1; tam = 0; 
+      vds = atof(vendas);
+			indice = indice + 1;
+			printf("\n Dados do %d cliente : ", indice);
+			printf("\n Cliente.......: %s - %s", cod, cl);
+			printf("\n Funcionario...: %s", fc);
+			printf("\n Data..........: %s", dt);
+			printf("\n Via...........: %s", via);
+			printf("\n Frete.........: %s", frete);
+			printf("\n Destinatario..: %s - %s - %s - %s", nome, cid, rd, pais);
+			printf("\n Per�odo.......: %s - %s - %s", trim, ano, tri);
+			//printf("\n Vendas........: %s", vendas);
+			printf("\n Vendas........: %f", vds);
+			printf("\n--------------------------------------------------------------");
+			getch();
+			
+			//fprintf(destino,"%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s\n", 
+			//							 cod, cl, fc, dt, via, frete, nome, 
+			//							 cid, rd, pais, trim, ano, tri, vendas);
+			fprintf(destino,"%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%s;%f\n", 
+										 cod, cl, fc, dt, via, frete, nome, 
+										 cid, rd, pais, trim, ano, tri, vds);							 
+		}
+		fclose (arq_cliente);
+		fclose(destino);
+		printf("\n *** FIM : [Tecle algo] !");
+		getch();
+	}
+	return 0;
+}
+

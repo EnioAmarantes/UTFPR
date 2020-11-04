@@ -1,0 +1,129 @@
+
+------------------
+vetor_inverso_100000.txt / Bubble Sort
+O tempo gasto na Ordenação 1 foi 43.355346000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 43.352447000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 43.354772000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 43.355530000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 43.351293000000 segundos
+
+
+------------------
+------------------
+vetor_inverso_100000.txt / Insetion Sort
+O tempo gasto na Ordenação 1 foi 0.000985000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.000725000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.000731000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.000721000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.000719000000 segundos
+
+
+------------------
+------------------
+vetor_inverso_100000.txt / Merge Sort
+O tempo gasto na Ordenação 1 foi 0.020835000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.020752000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.020914000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.020682000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.020696000000 segundos
+
+
+------------------
+------------------
+vetor_inverso_100000.txt / Selection Sort
+O tempo gasto na Ordenação 1 foi 18.706342000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 18.697154000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 18.695067000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 18.697871000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 18.696776000000 segundos
+
+
+------------------
+------------------
+vetor_inverso_100000.txt / Quick Sort
+O tempo gasto na Ordenação 1 foi 38.855607000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 38.863001000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 38.862859000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 38.870635000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 38.857944000000 segundos
+
+
+------------------
+------------------
+------------------
+vetor_inverso_100000.txt / Radix Sort
+O tempo gasto na Ordenação 1 foi 0.029181000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.029175000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.029054000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.029206000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.028970000000 segundos
+
+
+------------------
+------------------
+------------------
+vetor_inverso_100000.txt / Heap Sort
+O tempo gasto na Ordenação 1 foi 0.002324000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.002374000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.002334000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.002330000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.002330000000 segundos
+
+
+------------------

@@ -1,0 +1,6 @@
+100000 vetor_aleatorio_100000.txt
+200000 vetor_aleatorio_200000.txt
+400000 vetor_aleatorio_400000.txt
+100000 vetor_inverso_100000.txt
+200000 vetor_inverso_200000.txt
+400000 vetor_inverso_400000.txt

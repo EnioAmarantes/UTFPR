@@ -1,0 +1,127 @@
+Enio Amarantes Neto
+
+
+1)
+a) todas as mulheres;
+
+?- mulher(X),write(X),nl,fail.
+sara
+maria
+agar
+talita
+ulda
+julia
+false.
+
+b) Se existe mulher com nome de maria;
+?- mulher(maria).
+true.
+
+c) todos os homens;
+?- homem(X),write(X),nl,fail.
+pedro
+jose
+abraao
+jesus
+isac
+ismael
+jairo
+everton
+joaquim
+false.
+
+d) Se existe homem com nome de joao;
+?- homem(joao).
+false.
+
+e) todos os maridos;
+?- marido(X).
+
+ pedro é um marido!
+
+ jose é um marido!
+
+ abraao é um marido!
+
+ abraao é um marido!
+
+ jairo é um marido!
+false.
+
+f) todas esposas;
+?- esposa(E).
+
+ sara é uma esposa!
+
+ maria é uma esposa!
+
+ agar é uma esposa!
+
+ talita é uma esposa!
+
+ ulda é uma esposa!
+false.
+
+g) todos os netos (geral);
+?- netos(N).
+
+Neto: joaquim
+
+Neto: everton
+
+Neto: julia
+
+Neto: joaquim
+false.
+
+h) todas as netas (meninas);
+?- netamenina(N).
+
+Neta: julia
+false.
+
+i) todos os netos (meninos);
+?- netomenino(O).
+
+Neto: everton
+
+Neto: joaquim
+
+Neto: joaquim
+false.
+
+j) todos os avos (geral);
+?- achavei(O,A).
+
+Avo: abraao - Avoa: sara
+
+Avo: jairo - Avoa: ulda
+
+Avo: jairo - Avoa: ulda
+
+Avo: jairo - Avoa: ulda
+false.
+
+k) todos os avôs (homens);
+?- achaveihomem(A,N).
+
+Avo: abraao
+
+Avo: jairo
+
+Avo: jairo
+
+Avo: jairo
+false.
+
+l) todas as avós (mulheres); 
+?- achaveimuie(A,O).
+
+Avoa: sara
+
+Avoa: ulda
+
+Avoa: ulda
+
+Avoa: ulda
+false.

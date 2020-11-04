@@ -1,0 +1,49 @@
+create database EnioAmarantes;
+show databases;
+
+use EnioAmarantes;
+
+CREATE TABLE reserva (
+    res_numVoo INT(11) NOT NULL,
+    res_cpf VARCHAR(14) NOT NULL
+);
+
+alter table reserva
+  add primary key(res_numVoo, res_cpf);
+
+describe reserva;
+
+alter table reserva
+  drop primary key;
+
+alter table reserva
+  add res_email int(11);
+  
+alter table reserva
+  modify res_email varchar(30);
+  
+create table telefone (
+  tel_num varchar(15) not null,
+  res_cpf varchar(14) not null
+);
+
+alter table telefone
+  add primary key (tel_num, res_cpf);
+  
+alter table telefone
+  add constraint fk_tel_res foreign key (res_cpf) references reserva (res_cpf);
+  
+alter table telefone
+  drop primary key;
+  
+alter table telefone
+  add primary key (tel_num);
+  
+alter table reserva
+  add primary key (res_cpf);
+  
+alter table telefone
+  add constraint fk_tel_res foreign key (res_cpf) references reserva (res_cpf);
+  
+describe reserva;
+describe telefone;

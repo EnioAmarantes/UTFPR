@@ -1,0 +1,32 @@
+Série de MacLaurin com função para calcular fatorial
+
+#include<stdio.h>
+#include<math.h>
+float fatorial(float a){
+  float b;
+  b = a - 1;
+  while (b > 0) {
+    a = a * b;
+    b = b - 1;
+  }
+  return a;
+}
+
+main(){
+  int repeticao,a,sinal,expoente,c;
+  float fat,rad,soma,angulo;
+  for(angulo = 0.0 ; angulo <= 6.3 ; angulo = angulo + 0.1) {
+    soma=0;
+    sinal=1;
+    expoente=1;
+    fat=1;
+    for(a=1;a<=1000;a+=1){
+      rad = angulo * M_PI / 180;
+      soma=soma+sinal*pow(rad,expoente)/fatorial(expoente);
+      expoente+=2;
+      fat=1;
+      sinal=-sinal;
+    }
+    printf("\nangulo em graus --> %f angulo em radianos --> %f seno --> %f",angulo, rad, soma);
+  }
+}

@@ -1,0 +1,36 @@
+Dicas (2 passos):
+
+Passo 1:
+a) Reconhecer as regras de negócio;
+b) Implementá-las em um método;
+c) Identificar os possíveis problemas as utilizar estas regras de negócio;
+d) Construir uma classe que contenhas as soluções para os problemas identificados;
+e) A fim de se tornar um tipo de exceção VERIFICADA a classe do item "d" deverá herdar
+a classe nativa Exception.
+f) Ao construir o método do apresentado no item "b", implemente mecanismos que "dispare"
+um objeto do tipo de exceção que precisará tratar.
+
+
+Passo 2:
+Constriuir os blocos try/catch/finally (de acordo com a necessidade) no local (na classe) 
+em que utilizar o método. "item b do passo 1". (onde chamo o método) que contém,  que dispara a exceção:
+
+try{
+	métodos passíveis de
+	erro e, se houver o erro,
+	lançam o erro ocorrido na forma de
+	objetos.
+}
+
+catch("Classe tipo do erro" "objeto de seu tipo"){
+	tratar o erro
+}
+
+finally{
+	ocorrendo o erro ou não,
+	sempre será excutado
+}
+
+
+throws: aviso-> "posso disparar a exceção a frente"
+throw : ação -> "dispare a exceção"

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1524794390 source:/home/amarantes/Dropbox/UTFPR/PrimeiroSemestre/Praticas em C/Testando C/main.c
+	<stdio.h>
+	<stdlib.h>
+

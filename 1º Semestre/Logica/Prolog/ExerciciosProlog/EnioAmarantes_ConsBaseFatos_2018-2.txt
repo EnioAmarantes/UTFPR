@@ -1,0 +1,36 @@
+Enio Amarantes
+
+2.a)adp:
+mostre somente as alunas (meninas) que estudam, exibindo sua(s) diciplina(s) e
+professore(s);
+
+?- adp(A,P,D).
+Aluna: vivi Disc: logica Prof: jose
+Aluna: vivi Disc: banco Prof: lucas
+Aluna: julia Disc: banco Prof: lucas
+false.
+
+2.b) mne:
+mostre alunos não matriculados em nenhuma disciplina (não estudam);
+
+?- mne(M).
+Aluno: lucas
+Aluno: carlos
+Aluno: celso
+false
+
+2.c) dpj:
+mostre todas as disciplinas ministradas pelo prof. Jose
+
+?- dpj(jose).
+Disc: logica
+Disc: java
+false.
+
+2.d) pqa:
+mostre todos os professores que também são alunos
+
+?- pqa(P).
+Prof-Aluno: jose Disc: calculo
+Prof-Aluno: jose Disc: calculo
+false.

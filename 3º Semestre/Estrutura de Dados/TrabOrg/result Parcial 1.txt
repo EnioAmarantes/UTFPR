@@ -1,0 +1,702 @@
+﻿
+------------------
+vetor_aleatorio_100000.txt / Bubble Sort
+O tempo gasto na Ordenação 1 foi 89.924000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 89.784000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 89.768000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 90.111000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 92.402000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 89.828000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 92.404000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 91.680000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 90.427000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 90.535000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_100000.txt / Insetion Sort
+O tempo gasto na Ordenação 1 foi 12.053000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 12.120000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 12.307000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 12.134000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 12.183000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 12.200000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 11.977000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 12.327000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 11.977000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 12.013000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_100000.txt / Merge Sort
+O tempo gasto na Ordenação 1 foi 0.063000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.040000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.062000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.063000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.063000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.047000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_100000.txt / Selection Sort
+O tempo gasto na Ordenação 1 foi 19.172000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 20.902000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 20.417000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 18.453000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 18.770000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 18.706000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 18.564000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 18.533000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 18.566000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 18.642000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_100000.txt / Quick Sort
+O tempo gasto na Ordenação 1 foi 0.027000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.016000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.025000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.016000000000 segundos
+
+
+------------------
+------------------
+------------------
+vetor_aleatorio_100000.txt / Radix Sort
+O tempo gasto na Ordenação 1 foi 0.016000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.016000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.015000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.015000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.016000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.016000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.018000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.016000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.016000000000 segundos
+
+
+------------------
+------------------
+------------------
+vetor_aleatorio_100000.txt / Heap Sort
+O tempo gasto na Ordenação 1 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.032000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.032000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.026000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.032000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.032000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.047000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_200000.txt / Bubble Sort
+O tempo gasto na Ordenação 1 foi 378.592000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 385.542000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 399.020000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 365.010000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 367.477000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 368.609000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 369.556000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 369.701000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 362.943000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 362.314000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_200000.txt / Insetion Sort
+O tempo gasto na Ordenação 1 foi 48.208000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 48.403000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 48.484000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 48.309000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 48.202000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 48.137000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 48.215000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 48.420000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 48.310000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 48.655000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_200000.txt / Merge Sort
+O tempo gasto na Ordenação 1 foi 0.110000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.112000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.110000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.094000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.111000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.109000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.110000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.109000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.110000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.109000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_200000.txt / Selection Sort
+O tempo gasto na Ordenação 1 foi 74.047000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 73.761000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 74.068000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 74.166000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 74.150000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 73.429000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 73.913000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 74.198000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 73.946000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 73.603000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_200000.txt / Quick Sort
+O tempo gasto na Ordenação 1 foi 0.062000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.046000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.063000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.062000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.062000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.063000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.063000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.047000000000 segundos
+
+
+------------------
+------------------
+------------------
+vetor_aleatorio_200000.txt / Radix Sort
+O tempo gasto na Ordenação 1 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.032000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.049000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.047000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.031000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.046000000000 segundos
+
+
+------------------
+------------------
+------------------
+vetor_aleatorio_200000.txt / Heap Sort
+O tempo gasto na Ordenação 1 foi 0.094000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.093000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.079000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.083000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.078000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_400000.txt / Bubble Sort
+O tempo gasto na Ordenação 1 foi 1453.415000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 1456.488000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 1457.005000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 1465.380000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 1465.332000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 1452.632000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 1454.717000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 1470.218000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 1460.525000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 1464.674000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_400000.txt / Insetion Sort
+O tempo gasto na Ordenação 1 foi 195.668000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 193.568000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 193.520000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 193.945000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 196.284000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 195.261000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 195.153000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 197.913000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 195.182000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 193.847000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_400000.txt / Merge Sort
+O tempo gasto na Ordenação 1 foi 0.312000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.219000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.239000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.234000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.219000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.237000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.203000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.297000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.219000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.211000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_400000.txt / Selection Sort
+O tempo gasto na Ordenação 1 foi 299.737000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 300.175000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 301.837000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 301.983000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 300.802000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 302.261000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 300.165000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 298.700000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 302.200000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 300.962000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_400000.txt / Quick Sort
+O tempo gasto na Ordenação 1 foi 0.115000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.109000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.112000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.110000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.111000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.125000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.113000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.203000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.110000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.109000000000 segundos
+
+
+------------------
+------------------
+------------------
+vetor_aleatorio_400000.txt / Radix Sort
+O tempo gasto na Ordenação 1 foi 0.094000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.094000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.079000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.079000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.078000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.079000000000 segundos
+
+
+------------------
+------------------
+------------------
+vetor_aleatorio_400000.txt / Heap Sort
+O tempo gasto na Ordenação 1 foi 0.159000000000 segundos
+
+
+O tempo gasto na Ordenação 2 foi 0.172000000000 segundos
+
+
+O tempo gasto na Ordenação 3 foi 0.174000000000 segundos
+
+
+O tempo gasto na Ordenação 4 foi 0.172000000000 segundos
+
+
+O tempo gasto na Ordenação 5 foi 0.172000000000 segundos
+
+
+O tempo gasto na Ordenação 6 foi 0.172000000000 segundos
+
+
+O tempo gasto na Ordenação 7 foi 0.156000000000 segundos
+
+
+O tempo gasto na Ordenação 8 foi 0.172000000000 segundos
+
+
+O tempo gasto na Ordenação 9 foi 0.158000000000 segundos
+
+
+O tempo gasto na Ordenação 10 foi 0.172000000000 segundos
+
+
+------------------
+------------------
+vetor_aleatorio_800000.txt / Bubble Sort
